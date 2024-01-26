@@ -5,7 +5,7 @@ const voiceflowVersionID =
   document.getElementById("vfassistant").getAttribute("data-version") ||
   "production";
 
-const voiceflowAPIKey = "VF.DM.650c4a1a7e1a04000744b6ea.GCmymdNkzCanFlqS"; 
+const voiceflowAPIKey = "VF.DM.65b3d136c6b83f0007d04525.4OqqX9ChJHU366h8"; 
 
 const chatWindow = document.getElementById("chat-window");
 const input = document.getElementById("user-input");
@@ -16,8 +16,8 @@ const savedMessages = localStorage.getItem("messages");
 const chatContainer = document.getElementById("chat-container");
 const restartButton = document.getElementById("restart-button");
 
-const assistantTag = "株式会社Mottodigital",
-  userTag = "ユーザー";
+const assistantTag = "Modev AI",
+  userTag = "You";
 
 (function() {
     // Wait for a brief moment to ensure all elements are loaded
